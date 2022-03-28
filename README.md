@@ -19,12 +19,12 @@ Setup
 
 Build
 ```bash
-sass src/scss/style.scss public/css/style.css
+sass src/scss/style.scss docs/css/style.css
 ```
 
 Watch
 ```bash
-sass --watch src/scss/style.scss public/css/style.css
+sass --watch src/scss/style.scss docs/css/style.css
 ```
 
 Start

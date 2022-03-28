@@ -1,0 +1,178 @@
+:root{
+    --bg-color:         #121212;
+
+    --surface-100:      #1c1c1c;
+    --surface-150:      #262626;
+    --surface-200:      #333333;
+
+    --error-color:      #F47189;
+    --warning-color:    #FCD34D;
+    --succes-color:     #6EE7B7;
+
+    --primary-300:      #007599;
+    --primary-500:      #1ac9ff;
+    --primary-700:      #6ed7f7;
+
+    --secondary-300:      #0d9900;
+    --secondary-500:      #2dff1a;
+    --secondary-700:      #79f76e;
+
+
+    // --primary-300:      #0d9900;
+    // --primary-500:      #2dff1a;
+    // --primary-700:      #79f76e;
+
+
+    --white-on-1:        #FFFFFFdd;
+    --white-on-2:        #FFFFFF99;
+    --white-on-3:        hsla(0, 0%, 100%, 0.376);
+
+    --black-on-1:        #000000dd;
+    --black-on-2:        hsla(0, 0%, 0%, 0.6);
+    --black-on-3:        hsla(0, 0%, 0%, 0.376);
+
+
+    --whiteoverlay-4:    hsla(0, 0%, 100%, 0.04);
+    --whiteoverlay-12:   hsla(0, 0%, 100%, 0.12);
+
+
+    --onsurface-color:      var(--white-on-1);
+    --onsurface-color2:     var(--white-on-2);
+    --onsurface-color3:     var(--white-on-3);
+
+    --onprimary-color:      var(--black-on-1);
+    --onprimary-color2:     var(--black-on-2);
+    --onprimary-color3:     var(--black-on-3);
+
+
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    transition: all 0.2s;
+
+
+}   
+
+body { 
+    background: var(--bg-color);
+    
+    color: var(--onsurface-color);
+
+    svg {
+        fill: var(--white-on-1);
+    }
+
+    h1 {
+        font-size: 2.986rem;
+    }
+    
+    h2 {
+        font-size: 2.488rem;
+    }
+    
+    h3 {
+        font-size: 2.074rem;
+    }
+
+    h4 {
+        font-size: 1.728rem;
+    }
+
+    h5 {
+        font-size: 1.44rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    p.small {
+        font-size: 0.833rem;
+    }
+
+    a {
+        
+        &:link {
+        text-decoration: none;
+        color: var(--primary-700);
+        }
+        
+        &:visited {
+        text-decoration: none;
+        color: var(--primary-700);
+        }
+          
+        &:hover {
+            text-decoration: underline;
+            color: var(--primary-500);
+        }
+          
+        &:active {
+            text-decoration: underline;
+            color: var(--primary-500);
+        }  
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+
+    overflow: auto;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+
+    overflow: auto;
+}
+
+
+.webcontainer {
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+
+.template {
+    /* color */
+
+    /* position */
+
+    /* display */
+
+    /* box model */
+
+    /* box attributes*/
+
+    /* text */
+
+    /* other */
+
+    /* animation */
+}
