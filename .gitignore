@@ -11,3 +11,5 @@ vendor/
 # Vagrant specific
 .vagrant/
 .vagrantuser
+
+node_modules/
