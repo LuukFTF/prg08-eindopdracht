@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/LuukFTF/prg08-eindopdracht/issues"
   },
-  "homepage": "https://github.com/LuukFTF/prg08-eindopdracht#readme"
+  "homepage": "https://github.com/LuukFTF/prg08-eindopdracht#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "word2vec": "^1.1.5"
+  }
 }

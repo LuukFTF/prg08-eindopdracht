@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/
+HostUrl=https://raw.githubusercontent.com/Planeshifter/node-word2vec/master/examples/fixtures/vectors.txt
