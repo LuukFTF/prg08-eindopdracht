@@ -6,7 +6,9 @@ const model = require('word2vec/lib/model');
 w2v.loadModel( 'vectors.txt', function( error, model ) {
     // console.log( model );
 
-    console.log( model.mostSimilar( 'queen', 20 ) );
+    vec = model.getNearestWords( model.getVector( 'black' ), 10 )
+
+    console.log(vec);
 });
 
 
