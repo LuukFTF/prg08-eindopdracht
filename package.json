@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/LuukFTF/prg08-eindopdracht#readme",
   "dependencies": {
+    "csvtojson": "^2.0.10",
+    "fs": "0.0.1-security",
     "fs-extra": "^10.0.1",
+    "json2csv": "^5.0.7",
     "nodemon": "^2.0.15",
     "word2vec": "^1.1.5"
   }
