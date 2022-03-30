@@ -55,21 +55,24 @@ async function dataProcess() {
 
     const events = await csv().fromFile('docs/data/choir_events_raw.csv');
 
-    return new Promise(resolve => {
-        w2v.loadModel(vec_file, (error, model) => {
-            console.log("SIZE: ", model.size);
-            console.log("WORDS: ", model.words);
+    w2v.loadModel(vec_file, (error, model) => {
+        console.log("SIZE: ", model.size);
+        console.log("WORDS: ", model.words);
+
+        for (let i = 0; i < events.length; i++) {
+            vector = model.getVector(events[i].title)
+            if (vector != null) {
+                events[i].title = vector.values;
+            } else {
+                events[i].title = "";
+            }            
+        }        
+
+        console.log(events[0])
+
+        updateCsv(events)
+    });
     
-            events[0].title = model.getVector(events[0].title).values;
-    
-            console.log(events[0])
-
-            updateCsv(events)
-
-        });
-
-        resolve() 
-    })
 };
 
 
