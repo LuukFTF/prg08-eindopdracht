@@ -1,0 +1,29 @@
+{
+  "name": "prg08-eindopdracht",
+  "version": "1.0.0",
+  "description": "machine learning\r word2vec\r decision tree",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuukFTF/prg08-eindopdracht.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuukFTF/prg08-eindopdracht/issues"
+  },
+  "homepage": "https://github.com/LuukFTF/prg08-eindopdracht#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "nodemon": "^2.0.15",
+    "word2vec": "^1.1.5"
+  }
+}

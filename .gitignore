@@ -11,3 +11,7 @@ vendor/
 # Vagrant specific
 .vagrant/
 .vagrantuser
+
+node_modules/
+
+docs/data/big/
