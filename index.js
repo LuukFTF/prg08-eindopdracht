@@ -6,10 +6,10 @@ const dir = 'docs/data/'
 const source_file = dir+'firefox_corpus.txt'
 const dest_file = dir+'vectors_test.txt'
 
-const vec_file = dir+'big/vectors_glove.txt'
+const vec_file = dir+'big/vectors_roularta_nl.txt'
 // const dest_file = __dirname + '/docs/data/vectors_test.txt'
 
-console.log(dir, source_file, dest_file)
+console.log(dir, source_file)
 
 // clear(dir, source_file)
 
@@ -20,10 +20,12 @@ console.log(dir, source_file, dest_file)
 // });
 
 
+
+
 w2v.loadModel(vec_file, (error, model) => {
-    console.log("SIZE: ", model.size);
-    console.log("WORDS: ", model.words);
-    console.log(model.mostSimilar("word", 20));
+    // console.log("SIZE: ", model.size);
+    // console.log("WORDS: ", model.words);
+    console.log(model.mostSimilar("reprise", 10));
   });
 
 
