@@ -84,7 +84,7 @@
       "encode": {
         "enter": {
           "text": {"field": "name"},
-          "fontSize": {"value": 9},
+          "fontSize": {"value": 12},
           "baseline": {"value": "middle"},
           "fill": {"value": "#fff"}
         },

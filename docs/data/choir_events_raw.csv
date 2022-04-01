@@ -1,11 +1,11 @@
 "title","location","city","date","start_time","end_time","team","lable"
 opbouwen, cascade, hendrik-ido-ambacht, 2020-01-23, 19:45, 22:15, all, rehearsal
-korenfestival, paradiso, amsterdam, 2018-01-13, 16:00, 18:00, "all, audience", festival
-volkoren korenfestival, stadhuisplein, middelburg, 2019-06-01, 12:00, 14:00, "all, audience", festival
+korenfestival, paradiso, amsterdam, 2018-01-13, 16:00, 18:00, "[all, audience]", festival
+volkoren korenfestival, stadhuisplein, middelburg, 2019-06-01, 12:00, 14:00, "[all, audience]", festival
 eerste repetitie na de vakantie, cascade, hendrik-ido-ambacht, 2019-08-29, 19:45, 22:15, all, rehearsal
-terug naar de kust, grote kerk, scheveningen, 2019-09-28, 13:00, 17:00, "all, audience", festival
-singalong, cascade, hendrik-ido-ambacht, 2019-12-11, 20:00, 22:00, "all, audience", show
-singalong, cascade, hendrik-ido-ambacht, 2019-12-12, 20:00, 22:00, "all, audience", show
+terug naar de kust, grote kerk, scheveningen, 2019-09-28, 13:00, 17:00, "[all, audience]", festival
+singalong, cascade, hendrik-ido-ambacht, 2019-12-11, 20:00, 22:00, "[all, audience]", show
+singalong, cascade, hendrik-ido-ambacht, 2019-12-12, 20:00, 22:00, "[all, audience]", show
 repetitie, cascade, hendrik-ido-ambacht, 2020-01-09, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2020-01-16, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2020-01-23, 19:45, 22:15, all, rehearsal
@@ -19,10 +19,10 @@ repetitiedag when love takes over, de bron, hendrik-ido-ambacht, 2020-03-05, 10:
 repetitie, cascade, hendrik-ido-ambacht, 2020-03-12, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2020-03-19, 19:45, 22:15, all, rehearsal
 generale repetitie when love takes over, cascade, hendrik-ido-ambacht, 2020-03-19, 19:45, 22:15, all, rehearsal
-when love takes over show 1, cascade, hendrik-ido-ambacht, 2020-03-28, 20:00, 22:00, "all, audience", show
-when love takes over show 2, cascade, hendrik-ido-ambacht, 2020-03-29, 15:00, 17:00, "all, audience", show
-when love takes over show 3, cascade, hendrik-ido-ambacht, 2020-03-29, 20:00, 22:00, "all, audience", show
-open repetitie, cascade, hendrik-ido-ambacht, 2020-03-19, 19:45, 22:15, "all, audience", rehearsal
+when love takes over show 1, cascade, hendrik-ido-ambacht, 2020-03-28, 20:00, 22:00, "[all, audience]", show
+when love takes over show 2, cascade, hendrik-ido-ambacht, 2020-03-29, 15:00, 17:00, "[all, audience]", show
+when love takes over show 3, cascade, hendrik-ido-ambacht, 2020-03-29, 20:00, 22:00, "[all, audience]", show
+open repetitie, cascade, hendrik-ido-ambacht, 2020-03-19, 19:45, 22:15, "[all, audience]", rehearsal
 bevrijdingsfeest, gemeentehuis, hendrik-ido-ambacht, 2020-05-05, 15:00, 16:00, all, festival
 bevrijdingsfeest, grote kerk, dordrecht, 2020-05-05, 17:00, 20:00, all, festival
 repetitie, ashw, hendrik-ido-ambacht, 2020-07-17, 19:45, 21:30, all, rehearsal
@@ -33,15 +33,15 @@ repetitie, ashw, hendrik-ido-ambacht, 2020-08-14, 19:45, 21:30, all, rehearsal
 repetitie, ashw, hendrik-ido-ambacht, 2020-08-28, 19:45, 21:30, all, rehearsal
 repetitie, zoom, online, 2020-11-05, 19:45, 21:30, all, rehearsal
 opname on top of the world, ashw, hendrik-ido-ambacht, 2021-04-18, 14:00, 17:00, all, recording
-world choir games opening, sportpaleis, antwerpen, 2021-07-08, 15:00, 23:00, "all, audience", festival
-world choir games, sportpaleis, antwerpen, 2021-07-10, 15:00, 23:00, "all, audience", festival
-world choir games ending, sportpaleis, antwerpen, 2021-07-12, 15:00, 23:00, "all, audience", festival
+world choir games opening, sportpaleis, antwerpen, 2021-07-08, 15:00, 23:00, "[all, audience]", festival
+world choir games, sportpaleis, antwerpen, 2021-07-10, 15:00, 23:00, "[all, audience]", festival
+world choir games ending, sportpaleis, antwerpen, 2021-07-12, 15:00, 23:00, "[all, audience]", festival
 repetitie, de ark, hendrik-ido-ambacht, 2021-08-19, 19:45, 22:15, all, rehearsal
 de kuip videoclip, de kuip, rotterdam, 2021-09-18, 9:00, 14:00, all, recording
 repetitie, cascade, hendrik-ido-ambacht, 2021-10-21, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2021-10-07, 19:45, 22:15, all, rehearsal
 when love takes over tryout opbouwen, cascade, hendrik-ido-ambacht, 2021-11-11, 13:00, 20:00, techniek, preparation
-when love takes over tryout, cascade, hendrik-ido-ambacht, 2021-11-11, 20:00, 22:00, "all, audience", show
+when love takes over tryout, cascade, hendrik-ido-ambacht, 2021-11-11, 20:00, 22:00, "[all, audience]", show
 repetitie, cascade, hendrik-ido-ambacht, 2021-11-18, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2021-11-25, 19:45, 22:15, all, rehearsal
 online kerstborrel, zoom, online, 2021-12-23, 20:00, 21:30, all, rehearsal
@@ -51,14 +51,14 @@ repetitie, cascade, hendrik-ido-ambacht, 2022-03-17, 19:45, 22:15, all, rehearsa
 repetitie, cascade, hendrik-ido-ambacht, 2022-03-24, 19:45, 22:15, all, rehearsal
 repetitie, cascade, hendrik-ido-ambacht, 2022-04-07, 19:45, 22:15, all, rehearsal
 bestuursvergadering, gerrit hendrixlaan 13, hendrik-ido-ambacht, 2022-03-09, 20:00, 23:00, board, meeting
-alphens korenfestival, grote plein, alphen aan den rijn, 2022-05-07, 11:00, 17:00, "all, audience", festival
-volkoren korenfestival, stadhuisplein, middelburg, 2022-06-04, 11:00, 17:00, "all, audience", festival
-rotjekoor, stadhuisplein, rotterdam, 2022-06-18, 11:00, 17:00, "all, audience", festival
-terug naar de kust, grote kerk, scheveningen, 2022-09-24, 13:00, 17:00, "all, audience", festival
+alphens korenfestival, grote plein, alphen aan den rijn, 2022-05-07, 11:00, 17:00, "[all, audience]", festival
+volkoren korenfestival, stadhuisplein, middelburg, 2022-06-04, 11:00, 17:00, "[all, audience]", festival
+rotjekoor, stadhuisplein, rotterdam, 2022-06-18, 11:00, 17:00, "[all, audience]", festival
+terug naar de kust, grote kerk, scheveningen, 2022-09-24, 13:00, 17:00, "[all, audience]", festival
 re-flax 20 opbouwen, cascade, hendrik-ido-ambacht, 2022-11-04, 15:00, 19:00, techniek, preparation
 re-flax 20 generale repetitie, cascade, hendrik-ido-ambacht, 2022-11-04, 19:00, 23:00, all, rehearsal
 re-flax 20 opbouwen, cascade, hendrik-ido-ambacht, 2022-11-04, 15:00, 20:00, techniek, preparation
-re-flax 20 show 1, cascade, hendrik-ido-ambacht, 2022-11-05, 20:00, 22:00, "all, audience", show
-re-flax 20 show 2, cascade, hendrik-ido-ambacht, 2022-11-06, 15:00, 17:00, "all, audience", show
-re-flax 20 show 3, cascade, hendrik-ido-ambacht, 2022-11-06, 20:00, 22:00, "all, audience", show
-re-flax 20 reprise, kunstmin, dordrecht, 2023-03-01, 20:00, 22:00, "all, audience", show
+re-flax 20 show 1, cascade, hendrik-ido-ambacht, 2022-11-05, 20:00, 22:00, "[all, audience]", show
+re-flax 20 show 2, cascade, hendrik-ido-ambacht, 2022-11-06, 15:00, 17:00, "[all, audience]", show
+re-flax 20 show 3, cascade, hendrik-ido-ambacht, 2022-11-06, 20:00, 22:00, "[all, audience]", show
+re-flax 20 reprise, kunstmin, dordrecht, 2023-03-01, 20:00, 22:00, "[all, audience]", show
