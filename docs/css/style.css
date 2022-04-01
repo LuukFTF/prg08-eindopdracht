@@ -111,6 +111,36 @@ body a:active {
   margin: auto;
 }
 
+.lable_r {
+  background: orange;
+  color: var(--white-on-1);
+}
+
+.lable_rec {
+  background: red;
+  color: var(--white-on-1);
+}
+
+.lable_s {
+  background: darkred;
+  color: var(--white-on-1);
+}
+
+.lable_p {
+  background: lightblue;
+  color: var(--black-on-1);
+}
+
+.lable_m {
+  background: blue;
+  color: var(--white-on-1);
+}
+
+.lable_f {
+  background: yellow;
+  color: var(--black-on-1);
+}
+
 .template {
   /* color */
   /* position */
