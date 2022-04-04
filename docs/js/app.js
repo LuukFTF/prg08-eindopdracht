@@ -330,11 +330,11 @@ function predictInput(decisionTree){
 
     let prediction = decisionTree.predict({
         "title": "",
-        "location": "kunstmin",
-        "city": "dordrecht",
+        "location": "",
+        "city": "rotterdam",
         "date": "saturday",
-        "start_time": "20",
-        "end_time": "22",
+        "start_time": "16",
+        "end_time": "18",
         "team": "[all, audience]"
     })
     

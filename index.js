@@ -1,7 +1,8 @@
 const w2v = require('word2vec');
 const fs = require('fs');
 const csv = require('csvtojson');
-const { Parser } = require('json2csv')
+const { Parser } = require('json2csv');
+const { type } = require('os');
 
 const dir = 'docs/data/'
 const corpus_file = dir+'firefox_corpus.txt'
@@ -57,9 +58,11 @@ async function updateCsv(events){
 }
 
 function timeStringToFloat(time) {
-    var hoursMinutes = time.split(/[.:]/);
-    var hours = parseInt(hoursMinutes[0], 10);
-    var minutes = hoursMinutes[1] ? parseInt(hoursMinutes[1], 10) : 0;
-    return hours + minutes / 60;
+    if (time != undefined && time != "" && time != "null") {
+        let hoursMinutes = time.split(/[.:]/);
+        let hours = parseInt(hoursMinutes[0], 10);
+        let minutes = hoursMinutes[1] ? parseInt(hoursMinutes[1], 10) : 0;
+        return hours + minutes / 60;
+    }
 }
 
