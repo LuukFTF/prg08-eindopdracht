@@ -36,6 +36,11 @@
   transition: all 0.2s;
 }
 
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+}
 body {
   background: var(--bg-color);
   color: var(--onsurface-color);
@@ -67,21 +72,50 @@ body p {
 body p.small {
   font-size: 0.833rem;
 }
-body a:link {
+
+h1 {
+  color: var(--primary-color);
+  margin: 0.7em 0;
+  font-weight: 800;
+}
+
+h2 {
+  color: var(--onsurface-color);
+  margin: 0.7em 0;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--onsurface-color);
+  margin: 0.8em 0;
+  font-weight: 700;
+}
+
+h4 {
+  color: var(--onsurface-color);
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+h5 {
+  color: var(--onsurface-color);
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+h6 {
+  color: var(--onsurface-color);
+  margin: 1em 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: var(--secondary-500);
   text-decoration: none;
-  color: var(--primary-700);
-}
-body a:visited {
-  text-decoration: none;
-  color: var(--primary-700);
-}
-body a:hover {
-  text-decoration: underline;
-  color: var(--primary-500);
-}
-body a:active {
-  text-decoration: underline;
-  color: var(--primary-500);
 }
 
 .flex {
@@ -139,6 +173,375 @@ body a:active {
 .lable_f {
   background: yellow;
   color: var(--black-on-1);
+}
+
+main {
+  position: relative;
+  top: 5.625rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* ## Buttons */
+/* ### General button */
+.btn,
+a .btn,
+input[type=submit] {
+  background: var(--primary-500);
+  color: var(--onprimary-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+  display: inline-block;
+  padding: 0.65em 2em;
+  border-radius: 0.35em;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background: var(--primary-700);
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+}
+
+/* ### Secondary button */
+.btn.secondary {
+  background: var(--surface-200);
+  color: var(--primary-500);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  border: 0.14em solid var(--surface-150);
+  display: inline-block;
+  padding: 0.65em 2em;
+  border-radius: 0.35em;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn.secondary.s2 {
+  background: var(--surface-150);
+  border: 0.14em solid var(--surface-color3);
+}
+
+.btn.secondary:hover,
+.btn.secondary:active {
+  background: var(--onsurface-color3);
+  color: var(--primary-700);
+  box-shadow: 0 3px 13px rgba(0, 0, 0, 0.2);
+}
+
+/* ### FAB button */
+.fab-container {
+  z-index: 10;
+  position: fixed;
+  bottom: 6rem;
+  justify-content: flex-end;
+  max-width: 1100px;
+  width: 100%;
+  height: 5.25em;
+  padding: 0;
+  visibility: hidden;
+}
+
+.fab-btn {
+  background: var(--primary-500);
+  color: var(--onprimary-color);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 1.875em;
+  width: 1.875em;
+  border: 0;
+  padding: 0.7rem;
+  margin: 0.4rem;
+  outline: 0;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  visibility: visible;
+}
+
+@media (min-width: 600px) {
+  .fab-container {
+    bottom: 5.75rem;
+    top: 3rem;
+    overflow: visible;
+    margin: 0;
+  }
+
+  .fab-btn {
+    margin-right: 5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: calc(1100px + 5rem + 8rem)) {
+  .fab-btn {
+    margin-right: -5rem;
+  }
+}
+/* ## Icons Button Content */
+.btncontent-options::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f142";
+}
+
+.btncontent-add::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f067";
+}
+
+.btncontent-home::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f015";
+}
+
+.btncontent-event::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f133";
+}
+
+.btncontent-inbox::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f01c";
+}
+
+.btncontent-settings::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f013";
+}
+
+.btncontent-back::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f053";
+}
+
+.btncontent-calendarcheck::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f274";
+}
+
+.btncontent-edit::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f044";
+}
+
+.btncontent-login::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2f6";
+}
+
+/* # Navbuttons */
+.nav-btn {
+  background: var(--surface-100);
+  color: var(--onsurface-color2);
+  box-shadow: 0 0;
+  flex-grow: 1;
+  min-width: 3.125rem;
+  max-height: 100%;
+  padding: 0.5rem 0 0.75rem;
+  border-radius: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.nav-btn:hover {
+  background: var(--surface-150);
+  color: var(--primary-color2);
+}
+
+.nav-btn > h4 {
+  color: var(--onsurface-color2);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.active.nav-btn,
+.active.nav-btn > h4 {
+  color: var(--primary-500);
+}
+
+@media (min-width: 600px) {
+  .nav-btn {
+    padding: 1.25rem 1.9rem;
+  }
+}
+/* ## Forms */
+label {
+  color: var(--onsurface-color3);
+  display: block;
+  margin: 0 0 0.3em;
+  font-variant: all-small-caps;
+}
+
+input[type=text],
+input[type=password],
+select {
+  background: var(--surface-150);
+  color: var(--onsurface-color2);
+  padding: 0.5rem 0.5rem;
+  border: 0;
+  outline: 0;
+  border-radius: 0.35rem;
+  font-size: 1rem;
+}
+
+input[type=text]:focus,
+input[type=text]:hover,
+input[type=password]:focus,
+input[type=password]:hover,
+select:focus, select:focus {
+  color: var(--onsurface-color);
+  border: 0.14em solid var(--primary-500);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* # General */
+/* ## Topbar */
+.topbar {
+  background: var(--surface-100);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 5.6rem;
+  margin: 0;
+}
+
+.topbar .content {
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+
+.topbar h2 {
+  color: var(--onsurface-color);
+  margin: 0;
+  padding: 0;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.topbar .btn {
+  background: 0;
+  color: var(--onsurface-color1);
+  box-shadow: 0 0;
+  padding: 1.25rem 2rem;
+  border-radius: 0;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+/* ## Bottomnavbar */
+.bottomnavbar-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+
+nav.navbar {
+  background: var(--surface-100);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  flex-direction: row;
+  align-items: flex-end;
+  max-width: 100%;
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  nav.navbar {
+    max-width: min-content;
+    padding: 0 1.875rem;
+  }
+}
+/* # Sections */
+/* ## Logo */
+.logo {
+  color: var(--primary-500);
+  margin: 0;
+  text-align: center;
+  font-size: 12rem;
+  font-weight: 900;
+}
+
+/* ## Calendarlist */
+.callist {
+  margin: 1.25rem;
+}
+
+.callist .item {
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.callist .left {
+  width: 20%;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.callist .left h3 {
+  color: var(--onsurface-color2);
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.7rem;
+  font-variant: all-all-small-caps;
+}
+
+.callist .left h2 {
+  color: var(--onsurface-color);
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.callist .right {
+  background: var(--surface-150);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 0;
+  padding: 1.25rem;
+  border-radius: 0.35em;
+}
+
+.callist .right h3 {
+  color: var(--onsurface-color);
+  margin: 0;
+  padding: 0;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.callist .right h4 {
+  color: var(--onsurface-color2);
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .template {

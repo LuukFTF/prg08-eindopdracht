@@ -11,10 +11,137 @@
     <script defer src="js/app.js" type="module"></script>
 </head>
 <body>
-    <h1>Lucas' Machine Learning Project Frontend</h1>
-    <div>
+    <header class="topbar">
+        <div class="webcontainer">
+            <div class="content flex">
+                <h2>Choir Events</h2> 
+                <a class="btn btncontent-options"></a>
+            </div>
+        </div>
+    </header>
+        
+    <div class="webcontainer">
 
+        
+    <main class="callist flex-col">
+        <!-- start repeat -->
+        <div class="item flex">
+            <div class="left">
+                <h3>MON</h3>
+                <h2>4</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>CLE</h3>
+                <h4>9:30 - 12:30</h4>
+            </a>
+        </div>
+
+        <div class="item flex">
+            <div class="left"></div>
+            <a class="right" href="../eventdetail">
+                <h3>BB Frontend Zelfstudie</h3>
+                <h4>14:00 - 18:00</h4>
+            </a>
+        </div>
+
+        <div class="item flex">
+            <div class="left">
+                <h3>TUE</h3>
+                <h2>5</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>Zelfstudie Programmeren 5</h3>
+                <h4>10:00 - 17:00</h4>
+            </a>
+        </div>
+        
+        <div class="item flex">
+            <div class="left">
+                <h3>WED</h3>
+                <h2>6</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>CLE</h3>
+                <h4>10:00 - 16:00</h4>
+            </a>
+
+
+        </div>
+
+        <div class="item flex">
+            <div class="left"></div>
+            <a class="right" href="../eventdetail">
+                <h3>BB Ironman Assesment</h3>
+                <h4>16:00 - 16:15</h4>
+            </a>
+        </div>
+
+        <div class="item flex">
+            <div class="left">
+                <h3>THU</h3>
+                <h2>7</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>Programmeren 5 Praktijk</h3>
+                <h4>13:00 - 16:00</h4>
+            </a>
+        </div>
+
+        <div class="item flex">
+            <div class="left">
+                <h3>MON</h3>
+                <h2>11</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>CLE</h3>
+                <h4>9:30 - 12:30</h4>
+            </a>
+        </div>
+        <div class="item flex">
+            <div class="left">
+                <h3>WED</h3>
+                <h2>13</h2>
+            </div>
+            <a class="right" href="../eventdetail">
+                <h3>BB Frontend Zelfstudie</h3>
+                <h4>14:00 - 18:00</h4>
+            </a>
+        </div>
+        <div class="item flex">
+            <div class="left"></div>
+            <a class="right" href="../eventdetail">
+                <h3>Test</h3>
+                <h4>13:37-22:00</h4>
+            </a>
+        </div>
+
+        <!-- end repeat -->
+    </main>
 
     </div>
+
+    <div class="webcontainer">     
+        <div class="fab-container flex">    
+            <a href="create" class="fab-btn btncontent-add"></a>
+        </div>
+    </div>
+
+
+    <footer class="bottomnavbar-container">
+        <nav class="navbar flex-col">
+            <a href="../home" class="btn nav-btn 
+                btncontent-home">
+                <h4>Home</h4>
+            </a>
+            <a href="../events" class="btn nav-btn 
+                btncontent-event active">
+                <h4>Events</h4>
+            </a>
+            <a href="../login" class="btn nav-btn 
+                btncontent-login">
+                <h4>Login</h4>
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
