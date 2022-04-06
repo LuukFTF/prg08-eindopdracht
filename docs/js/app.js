@@ -1,7 +1,7 @@
 import { DecisionTree } from "./libraries/decisiontree.js"
 import { VegaTree } from "./libraries/vegatree.js"
 
-const csvFile = "./data/choir_events_processed.csv"
+const csvFile = "../data/choir_events_processed.csv"
 const trainingLabel = "lable"
 const ignoredColumns = []
 
