@@ -1,44 +1,50 @@
 "title","location","city","date","start_time","end_time","team","lable"
-Re-flax 5, cascade, hendrik-ido-ambacht, 2006-07-26, , , , show
-Korenslag, studio, hilversum, 2007-06-12, , , , recording
-Re-flax FM, cascade, hendrik-ido-ambacht, 2009-09-27, , , , show 
-Koningsdag, , dordrecht, 2015-04-27, , , , festival 
-Face the music, cascade, hendrik-ido-ambacht, 2015-06-05, , , , show
-Sensation White, arena, amsterdam, 2015-07-04, , , , festival 
-Haven festival, , rotterdam, 2015-09-00, , , , festival 
-Countdown To Christmas, , , 2015-12-17, , , , show 
-Hitmaker video Clip, , , 2016-01-01 , , , , recording
+Re-flax 5, cascade, hendrik-ido-ambacht, 2006-07-26, , , "[all, audience]", show
+korenslag, studio, hilversum, 2007-06-12, , , "[all, audience, jury, tv]", recording
+Re-flax fm, cascade, hendrik-ido-ambacht, 2009-09-27, , , "[all, audience]", show 
+alblasserdams korenfestival, , alblasserdam, , , , "[all, audience]", festival 
+koningsdag, drierieverenpunt, dordrecht, 2015-04-27, , , "[all, audience]", festival 
+face the music, cascade, hendrik-ido-ambacht, 2015-06-05, , , "[all, audience]", show
+sensation white, arena, amsterdam, 2015-07-04, 14:00, 4:00, "[all, audience]", festival 
+sensation white megakoor optreden, arena, amsterdam, 2015-07-04, 3:00, 3:30, "[all, audience]", festival 
+haven festival, , rotterdam, 2015-09-00, , , "[all, audience]", festival 
+Countdown To Christmas, , , 2015-12-17, , , "[all, audience]", show 
+Hitmaker video Clip, cascade, hendrik-ido-ambacht, 2016-01-01 , , , all, recording
 Lions club, , , 2016-04-08, , , ,
 Julia, , , 2016-05-27, , , ,
 Stairway, stationsplein, rotterdam, 2016-06-04, , , , festival
 Inner Circle, , , 2016-06-16, , , , festival  
 Jan Schram, , , 2016-06-24, , , , 
 Inspire to Live, , , 2016-08-26, , , , festival
-Re-flax 15, cascade, hendrik-ido-ambacht, 2016-10-22, , , , show 
-Flashmob, stationsplein, rotterdam, 2016-11-13, , , , festival 
-Alexandrium, alexander, rotterdam, 2016-12-22, , , , festival
+Re-flax 15 generale repetitie, cascade, hendrik-ido-ambacht, 2016-10-21, 19:00, , all, show 
+Re-flax 15 show 1, cascade, hendrik-ido-ambacht, 2016-10-22, 20:00, 22:00, "[all, audience]", show  
+Re-flax 15 show 2, cascade, hendrik-ido-ambacht, 2016-10-23, 15:00, 17:00, "[all, audience]", show 
+Re-flax 15 show 3, cascade, hendrik-ido-ambacht, 2016-10-23, 20:00, 22:00, "[all, audience]", show 
+Flashmob, stationsplein, rotterdam, 2016-11-13, , , "[all, audience]", festival 
+alexandrium, alexander, rotterdam, 2016-12-22, , , "[all, audience]", festival
 Rotary, , , 2017-03-23, , , ,  
-Reflax 15 special, , , 2017-03-23, , , , show
-Kunstmin Re-flax 15, kunstmin, dordrecht, 2017-04-02, , , , show 
-dodenherdenking zwijndrecht, gemeentehuis, zwijndrecht, 2017-05-04, , , , festival 
-jumelage , cascade, hendrik-ido-ambacht, 2017-05-27, , , , show 
-Snuffelrepetitie KRPH, , , 2017-07-06, , , , rehearsal
-Scheveningen festival, , scheveningen, 2017-09-23, , , , festival
+Reflax 15, kunstmin, dordrecht, , , 2017-03-23, , , , show
+kunstmin Re-flax 15, kunstmin, dordrecht, 2017-04-02, , , , show 
+dodenherdenking zwijndrecht, gemeentehuis, zwijndrecht, 2017-05-04, , , "[all, audience]", festival 
+jumelage repetitie, cascade, hendrik-ido-ambacht, 2017-05-26, , ,  "all", rehearsal 
+jumelage, cascade, hendrik-ido-ambacht, 2017-05-27, , , "[all, audience]", show 
+snuffelrepetitie KRPH, kunstmin, dordrecht, 2017-07-06, , , all, rehearsal
+scheveningen festival, , scheveningen, 2017-09-23, , , "[all, audience]", festival
 Taptoe, , , 2017-09-29, , , ,  
-Winter Reflaxions, cascade, hendrik-ido-ambacht, 2017-12-17, , , , show 
+Winter Reflaxions, cascade, hendrik-ido-ambacht, 2017-12-17, , , "[all, audience]", show 
 korenfestival, paradiso, amsterdam, 2018-01-13, 16:00, 18:00, "[all, audience]", festival
 IKAA, , , 2018-02-04, , , , 
-NKF Voorronde, zuidplein theater, rotterdam, 2018-04-22, , , , festival 
+NKF Voorronde, zuidplein theater, rotterdam, 2018-04-22, , , "[all, audience, jury]", festival 
 Sing-in, , , 2018-08-10, , , , 
-terug naar de Kust, , scheveningen, 2018-09-23, , , , festival 
-Re-flax - KRPH Night of the Proms, , , 2018-11-18, , , , show  
-volkoren korenfestival, stadhuisplein, middelburg, 2019-06-01, 12:00, 14:00, "[all, audience]", festival
-Rotjekoor, , rotterdam, 2019-06-10, , , , festival 
+terug naar de Kust, kerk, scheveningen, 2018-09-23, , , "[all, audience]", festival 
+Re-flax KRPH Night of the Proms, cascade, hendrik-ido-ambacht, 2018-11-18, , , "[all, audience]", show  
+volkoren korenfestival, stadhuisplein,middelburg, 2019-06-01, 12:00, 14:00, "[all, audience]", festival
+Rotjekoor, schouwburgplein, rotterdam, 2019-06-10, , , "[all, audience]", festival 
 eerste repetitie na de vakantie, cascade, hendrik-ido-ambacht, 2019-08-29, 19:45, 22:15, all, rehearsal
-Zomerparkdag, baxpark, hendrik-ido-ambacht,  2019-08-31, , , , festival 
-Voorwinde Modeshow, , sgravensdeel, 2019-09-16, , , , festival 
+Zomerparkdag, baxpark, hendrik-ido-ambacht,  2019-08-31, , , "[all, audience]", festival 
+Voorwinde Modeshow, winkel, sgravensdeel, 2019-09-16, , , "[all, audience]", festival 
 terug naar de kust, grote kerk, scheveningen, 2019-09-28, 13:00, 17:00, "[all, audience]", festival
-brielle, , brielle, 2019-10-05, , , , festival
+brielle, , brielle, 2019-10-05, , , "[all, audience]", festival
 christmas singalong, cascade, hendrik-ido-ambacht, 2019-12-11, 20:00, 22:00, "[all, audience]", show
 christmas singalong, cascade, hendrik-ido-ambacht, 2019-12-12, 20:00, 22:00, "[all, audience]", show
 repetitie, cascade, hendrik-ido-ambacht, 2020-01-09, 19:45, 22:15, all, rehearsal
@@ -60,7 +66,7 @@ when love takes over show 3, cascade, hendrik-ido-ambacht, 2020-03-29, 20:00, 22
 open repetitie, cascade, hendrik-ido-ambacht, 2020-03-19, 19:45, 22:15, "[all, audience]", rehearsal
 bevrijdingsfeest, gemeentehuis, hendrik-ido-ambacht, 2020-05-05, 15:00, 16:00, all, festival
 bevrijdingsfeest, grote kerk, dordrecht, 2020-05-05, 17:00, 20:00, all, festival
-World Choir Games , , , 2020-06-11, , , , festival 
+World Choir Games, sportpaleis, antwerpen, 2020-06-11, , , , festival 
 repetitie, ashw, hendrik-ido-ambacht, 2020-07-17, 19:45, 21:30, all, rehearsal
 repetitie, ashw, hendrik-ido-ambacht, 2020-07-24, 19:45, 21:30, all, rehearsal
 repetitie, ashw, hendrik-ido-ambacht, 2020-07-31, 19:45, 21:30, all, rehearsal
@@ -68,7 +74,7 @@ repetitie, ashw, hendrik-ido-ambacht, 2020-08-07, 19:45, 21:30, all, rehearsal
 repetitie, ashw, hendrik-ido-ambacht, 2020-08-14, 19:45, 21:30, all, rehearsal
 repetitie, ashw, hendrik-ido-ambacht, 2020-08-28, 19:45, 21:30, all, rehearsal
 repetitie, zoom, online, 2020-11-05, 19:45, 21:30, all, rehearsal
-Harpe Davids, , , 2020-11-14, , , , show  
+Harpe Davids, , , 2020-11-14, , , "[all, audience]", show  
 recording on top of the world, ashw, hendrik-ido-ambacht, 2021-04-18, 14:00, 17:00, all, recording
 world choir games opening, sportpaleis, antwerpen, 2021-07-08, 15:00, 23:00, "[all, audience]", festival
 world choir games, sportpaleis, antwerpen, 2021-07-10, 15:00, 23:00, "[all, audience]", festival
