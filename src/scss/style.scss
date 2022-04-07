@@ -1,26 +1,29 @@
 :root{
-    --bg-color:         #121212;
+    --bg-color:          hsl(225, 9%, 9%);
+    
+    --surface-100:       hsl(213, 15%, 12%);
+    --surface-150:       hsl(210, 21%, 15%);
+    --surface-200:       hsl(210, 24%, 20%);
 
-    --surface-100:      #1c1c1c;
-    --surface-150:      #262626;
-    --surface-200:      #333333;
+    --error-color:       #F47189;
+    --warning-color:     #FCD34D;
+    --succes-color:      #6EE7B7;
 
-    --error-color:      #F47189;
-    --warning-color:    #FCD34D;
-    --succes-color:     #6EE7B7;
+    --primary-300:       #992400;
+    --primary-500:       hsl(14, 100%, 57%);
+    --primary-700:       hsl(14, 90%, 70%);
 
-    --primary-300:      #007599;
-    --primary-500:      #1ac9ff;
-    --primary-700:      #6ed7f7;
+    --secondary-300:     #990000;
+    --secondary-500:     #F66464;
+    --secondary-700:     #d3aaaa;
 
-    --secondary-300:      #0d9900;
-    --secondary-500:      #2dff1a;
-    --secondary-700:      #79f76e;
+    --tertiary-300:      #007599;
+    --tertiary-500:      #1ac9ff;
+    --tertiary-700:      #6ed7f7;
 
-
-    // --primary-300:      #0d9900;
-    // --primary-500:      #2dff1a;
-    // --primary-700:      #79f76e;
+    --accent4-300:       #7d1c6f;
+    --accent4-500:       #d12eb9;
+    --accent4-700:       #d98ccd;
 
 
     --white-on-1:        #FFFFFFdd;
@@ -31,9 +34,11 @@
     --black-on-2:        hsla(0, 0%, 0%, 0.6);
     --black-on-3:        hsla(0, 0%, 0%, 0.376);
 
-
     --whiteoverlay-4:    hsla(0, 0%, 100%, 0.04);
     --whiteoverlay-12:   hsla(0, 0%, 100%, 0.12);
+
+    --primary-overlay-4: hsla(14, 100%, 57%, 0.04);
+    --primary-overlay-12:hsla(14, 100%, 57%, 0.12);
 
 
     --onsurface-color:      var(--white-on-1);
@@ -228,33 +233,27 @@ a {
 
 
 .lable_r {
-    background: orange;
-    color: var(--white-on-1);
+    background: var(--primary-500);
 }
 
 .lable_rec {
-    background: red;
-    color: var(--white-on-1);
+    background: var(--secondary-500);
 }
 
 .lable_s {
-    background: darkred;
-    color: var(--white-on-1);
+    background: var(--secondary-300);
 }
 
 .lable_p {
-    background: lightblue;
-    color: var(--black-on-1);
+    background: var(--tertiary-700);
 }
 
 .lable_m {
-    background: blue;
-    color: var(--white-on-1);
+    background: var(--tertiary-500);
 }
 
 .lable_f {
-    background: yellow;
-    color: var(--black-on-1);
+    background: var(--accent4-500);
 }
 
 

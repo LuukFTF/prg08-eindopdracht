@@ -9,7 +9,7 @@
     {"name": "labels", "value": true, "bind": {"input": "checkbox"}},
     {
       "name": "layout",
-      "value": "tidy",
+      "value": "cluster",
       "bind": {"input": "radio", "options": ["tidy", "cluster"]}
     },
     {
