@@ -11,43 +11,79 @@
     <script defer src="../js/app.js" type="module"></script>
 </head>
 <body>
-    <header class="topbar">
-        <div class="webcontainer">
-            <div class="content flex">
-                <h2>Choir Events</h2> 
-                <a class="btn btncontent-options"></a>
-            </div>
+    <header class="topbar"><div class="webcontainer">
+        <div class="content flex">
+            <h2>Choir Events - Create</h2> 
+            <a class="btn btncontent-options"></a>
         </div>
-    </header>
+    </div></header>
         
     <div class="webcontainer">
-        <h2> Create Event</h2>
-        <h2> Create Event</h2>
+        <h2>x</h2>
         
-        
+        <form>
+            <label for="title">Title</label><br>
+            <input type="text" id="title" name="title"><br>
+
+            <label for="date">Date</label><br>
+            <input type="text" id="date" name="date"><br>
+
+            <label for="start_time">Start Time</label><br>
+            <input type="text" id="start_time" name="start_time"><br>
+
+            <label for="end_time">End Time</label><br>
+            <input type="text" id="end_time" name="end_time"><br>
+
+            <label for="team">Team</label><br>
+            <select id="team" name="team" size="6" multiple>
+                <option value="all">all</option>
+                <option value="audience">audience</option>
+                <option value="jury">jury</option>
+                <option value="tv">tv</option>
+                <option value="techniek">techniek</option>
+                <option value="styling_commission">styling_commission</option>
+            </select>
+
+            <label for="location">Location/Venue</label><br>
+            <input type="text" id="location" name="location"><br>
+
+            <label for="city">City</label><br>
+            <input type="text" id="city" name="city"><br>
+
+            <label for="lable">Lable</label>
+            <select id="lable" name="lable">
+                <option value=""></option>
+                <option value="rehearsal">rehearsal</option>
+                <option value="recording">recording</option>
+                <option value="show">show</option>
+                <option value="preperation">preperation</option>
+                <option value="meeting">meeting</option>
+                <option value="festival">festival</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
 
     </div>
 
-    <div class="webcontainer">     
-        <div class="fab-container flex">    
-            <a href="" class="fab-btn btncontent-add"></a>
-        </div>
-    </div>
+    <div class="webcontainer"><div class="fab-container flex">    
+        <a href="" class="fab-btn btncontent-add"></a>
+    </div></div>
 
 
     <footer class="bottomnavbar-container">
         <nav class="navbar flex-col">
-            <a href="../home" class="btn nav-btn 
+            <a href="#" class="btn nav-btn 
                 btncontent-home">
-                <h4>Home</h4>
+                <h4>Start</h4>
             </a>
-            <a href="../events" class="btn nav-btn 
-                btncontent-event active">
+            <a href="../" class="btn nav-btn 
+                btncontent-event">
                 <h4>Events</h4>
             </a>
-            <a href="../login" class="btn nav-btn 
-                btncontent-login">
-                <h4>Login</h4>
+            <a href="" class="btn nav-btn 
+                btncontent-login active">
+                <h4>Algoritm</h4>
             </a>
         </nav>
     </footer>
