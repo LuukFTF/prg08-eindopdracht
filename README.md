@@ -380,3 +380,92 @@ Ik merk ook dat elke keer wanneer je de decisiontree genereerd er totaal andere 
 
 De accuracy was nu op zijn hoogst 90% en op zijn laagste 30%, wat nogsteeds beter dan willekeurig is.
 
+
+### B. Uitvoering
+
+Deadline: 2022-04-17
+
+https://classroom.github.com/assignment-invitations/196b79544475a9ca052e0a693d821bdb/status
+
+https://github.com/HR-CMGT-Classroom/prg08-2022-week9-LuukFTF
+
+### Requirements
+
+Uitwerking
+- [ ] prototype uit stap 2 is uitgewerkt tot werkende applicatie
+- [ ] gebruiksvriendelijke interface
+- [ ] gericht op eindgebruikers uit de doelgroep
+- [ ] duidelijke beschrijvende naam
+- [ ] code op github classroom
+- [ ] live online
+
+bonus: 
+- [ ] je hebt getest met eindgebruikers uit doelgroep
+- [ ] voeg resultaat toe aan inleverdocument
+
+
+Reflectie:
+- [ ] pitch de uitwerking aan project team
+- [ ] verzamel feedback van team
+- [ ] screencast eindproduct
+- [ ] link naar online product
+- [ ] reflectiedocument (techniek):
+  - Heeft het gekozen algoritme / library goed gewerkt voor jouw toepassing? Zou een ander algoritme / library beter kunnen werken? Heb je dit geprobeerd?
+  - Heb je genoeg data kunnen verzamelen? Zou jouw applicatie beter kunnen worden als er meer of betere data is? Hoe kom je aan betere data?
+  - Vindt er training van een model plaats in het prototype en/of in het eindproduct? Licht dit toe.
+  - Heeft de data een verborgen voorkeur? Wat wordt hier mee bedoeld?
+  - Wat voor accuracy vind jij goed genoeg voor jouw toepassing?
+  - Zijn er privacy concerns in je app? Denk aan het opslaan / versturen van gevoelige data.
+- [ ] reflectiedocument (eindproduct):
+  - Wat voor feedback heb je gekregen van je TLE team?
+  - Is jouw werk bruikbaar voor het eindproduct van TLE? Ga je er aan doorwerken? Waarom wel of niet?
+  - Heeft AI waarde toegevoegd aan je concept, of had dit ook zonder AI gekund?
+  - Ben je zelf tevreden met het eindresultaat? Werkt het zo goed als je verwacht / gehoopt had? Waarom wel of niet?
+  - Is je app zodanig goed dat eindgebruikers er zonder verdere instructies mee uit de voeten kunnen? Waarom wel of niet?
+
+### Planning
+
+- [o] Uitwerking
+  - [x] data uitgebreider maken
+  - [o] prototype naar volledig werkende applicatie bouwen (js)
+      - [x] aparte data training pagina en gebruikers pagina
+      - [x] form met auto prediction
+      - [ ] word2vec beter toepassen
+      - [ ] backend & frontend gescheiden (?word2vec api maken)
+  - [ ] interactie ontwerp maken (frontend design)
+  - [ ] interface gebruik vriendelijk maken (frontend code)
+  - [o] naam bedenken
+  - [ ] requirements check
+  - [ ] live online met link
+  - [ ] bonus: getest en uitkomsten document
+  
+- [ ] Reflectie
+  - [ ] pitch maken
+  - [ ] pitchen
+  - [ ] feedback van team verzamelen
+  - [ ] screencast
+  - [ ] reflectiedocument (techniek)
+  - [ ] reflectiedocument (eindproduct)
+  - [ ] last check
+  - [ ] inleveren lms & github classroom
+
+### Ideeen
+
+### Notes
+
+Erik:
+Hi, als je de voorbeeldcode uit de les gebruikt kan je maxTreeDepth proberen. Je vindt een aantal settings in 
+https://github.com/lagodiuk/decision-tree-js/blob/master/decision-tree.js
+ 
+Op diezelfde site staat ook het random forest algoritme. Die maakt meerdere decision trees en kijkt dan welke voorspelling het meest voorkomt. Je kan kijken of dat beter werkt dan 1 Decision Tree.
+https://github.com/lagodiuk/decision-tree-js
+
+
+### Data
+
+https://docs.google.com/spreadsheets/d/1crHZ8N6VWFBZ7w_J_b0eonGZ5mGg3ZC5Nl0yJtKpul4/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1656qP6X36Ul7AYE5Eqxre1qaXebedPEuE5kVhP6u9Es/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/14JE3mtTRQRs9I3Nj5Fmaz0dLd6BfbAnu0AfHpD0_ZTE/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1IY2Js78tVNMbxbckO3ldwdw5BKZvZXz5oUoEeymDFuc/edit?usp=sharing
+
+###
