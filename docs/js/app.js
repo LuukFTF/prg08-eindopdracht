@@ -2,7 +2,7 @@ import { DecisionTree } from "./libraries/decisiontree.js"
 
 const csvFile = "../data/choir_events_processed.csv"
 const trainingLabel = "lable"
-const ignoredColumns = []
+const ignoredColumns = ["team"]
 
 const form = document.getElementById("eventform")
 
@@ -17,7 +17,7 @@ function dataProcess() {
     processed.end_time = timeStringToFloat(form.end_time.value)
     processed.date = dateToWeekday(form.date.value)
 
-    console.log(form.title.value, form.date.value, processed.date, form.start_time.value, processed.start_time, form.end_time.value, processed.end_time, form.team.value, form.location.value, form.city.value)
+    console.log(form.title.value, processed.date, processed.start_time, processed.end_time, form.team.value, form.location.value, form.city.value)
 
     let prediction = loadAlgoritm(form, processed)
 
@@ -59,6 +59,7 @@ function trainModelFull(data, form, processed){
         categoryAttr: trainingLabel
     })
 
+    // console.log(decisionTree)
     predictInput(decisionTree, form, processed)
 }
 
@@ -84,6 +85,7 @@ function predictInput(decisionTree, form, processed){
 
 function updateLableColor() {
     const topbar = document.getElementById("topbar")
+    topbar.className = `topbar`
 
     switch (form.lable.value) {
         case 'rehearsal':

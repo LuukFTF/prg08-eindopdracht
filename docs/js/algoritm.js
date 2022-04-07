@@ -3,7 +3,7 @@ import { VegaTree } from "./libraries/vegatree.js"
 
 const csvFile = "../data/choir_events_processed.csv"
 const trainingLabel = "lable"
-const ignoredColumns = [team]
+const ignoredColumns = []
 
 loadData()
 
@@ -39,7 +39,6 @@ function trainModel(data){
     predictAll(decisionTree, testData)
     // predictOne(decisionTree, testData)
 }
-
 
 
 
