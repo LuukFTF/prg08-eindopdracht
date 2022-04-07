@@ -21,27 +21,27 @@
     <div class="webcontainer">
         <h2>x</h2>
         
-        <form>
+        <form name="eventform" id="eventform">
             <label for="title">Title</label><br>
             <input type="text" id="title" name="title"><br>
 
             <label for="date">Date</label><br>
-            <input type="text" id="date" name="date"><br>
+            <input type="text" id="date" name="date" placeholder="YYYY-MM-DD"><br>
 
             <label for="start_time">Start Time</label><br>
-            <input type="text" id="start_time" name="start_time"><br>
+            <input type="text" id="start_time" name="start_time" placeholder="00:00"><br>
 
             <label for="end_time">End Time</label><br>
-            <input type="text" id="end_time" name="end_time"><br>
+            <input type="text" id="end_time" name="end_time" placeholder="00:00"><br>
 
-            <label for="team">Team</label><br>
+            <label for="team">Team / People Present</label><br>
             <select id="team" name="team" size="6" multiple>
-                <option value="all">all</option>
-                <option value="audience">audience</option>
-                <option value="jury">jury</option>
-                <option value="tv">tv</option>
-                <option value="techniek">techniek</option>
-                <option value="styling_commission">styling_commission</option>
+                <option value="all">All</option>
+                <option value="audience">Audience</option>
+                <option value="jury">Jury</option>
+                <option value="tv">TV</option>
+                <option value="techniek">Techniek</option>
+                <option value="styling_commission">Styling Commission</option>
             </select>
 
             <label for="location">Location/Venue</label><br>
@@ -52,24 +52,25 @@
 
             <label for="lable">Lable</label>
             <select id="lable" name="lable">
-                <option value=""></option>
-                <option value="rehearsal">rehearsal</option>
-                <option value="recording">recording</option>
-                <option value="show">show</option>
-                <option value="preperation">preperation</option>
-                <option value="meeting">meeting</option>
-                <option value="festival">festival</option>
+                <option value="" hidden="hidden"></option>
+                <option value="rehearsal">Rehearsal</option>
+                <option value="recording">Recording</option>
+                <option value="show" selected>Show</option>
+                <option value="preparation">Preparation</option>
+                <option value="meeting">Meeting</option>
+                <option value="festival">Festival</option>
             </select>
 
-            <input type="submit" value="Submit">
+            <input type="submit" name="submit" value="Submit">
         </form>
 
     </div>
 
+    <p>  <br> <br>  <br>  <br>   <br>  </p>
+
     <div class="webcontainer"><div class="fab-container flex">    
         <a href="" class="fab-btn btncontent-add"></a>
     </div></div>
-
 
     <footer class="bottomnavbar-container">
         <nav class="navbar flex-col">
