@@ -77,4 +77,34 @@ function predictInput(decisionTree, form, processed){
     console.log(`this event is a ${prediction}`)
 
     form.lable.value = prediction
+
+    updateLableColor()
+}
+
+
+function updateLableColor() {
+    const topbar = document.getElementById("topbar")
+
+    switch (form.lable.value) {
+        case 'rehearsal':
+            topbar.className = `${topbar.className} lable_r`
+            break;
+        case 'recording':
+            topbar.className = `${topbar.className} lable_rec`
+            break;
+        case 'show':
+            topbar.className = `${topbar.className} lable_s`
+            break;
+        case 'preparation':
+            topbar.className = `${topbar.className} lable_p`
+            break;
+        case 'meeting':
+            topbar.className = `${topbar.className} lable_m`
+            break;
+        case 'festival':
+            topbar.className = `${topbar.className} lable_f`
+            break;
+        default:
+            break;
+      }
 }

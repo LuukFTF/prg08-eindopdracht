@@ -154,27 +154,27 @@ a {
 }
 
 .lable_r {
-  background: var(--primary-500);
+  background: var(--primary-500) !important;
 }
 
 .lable_rec {
-  background: var(--secondary-500);
+  background: var(--secondary-500) !important;
 }
 
 .lable_s {
-  background: var(--secondary-300);
+  background: var(--secondary-300) !important;
 }
 
 .lable_p {
-  background: var(--tertiary-700);
+  background: var(--tertiary-700) !important;
 }
 
 .lable_m {
-  background: var(--tertiary-500);
+  background: var(--tertiary-500) !important;
 }
 
 .lable_f {
-  background: var(--accent4-500);
+  background: var(--accent4-500) !important;
 }
 
 main {
