@@ -392,7 +392,7 @@ input[type=submit] {
 label {
   color: var(--onsurface-color3);
   display: block;
-  margin: 0 0 0.3em;
+  margin: 1em 0 0;
   font-variant: all-small-caps;
 }
 

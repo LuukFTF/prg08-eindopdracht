@@ -5,11 +5,17 @@ const trainingLabel = "lable"
 const ignoredColumns = ["team"]
 
 const form = document.getElementById("eventform")
+const updateBtn = document.getElementById("updateBtn")
 
-form.addEventListener('submit', (e) => {
-    e.preventDefault()
+
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault()
+//     dataProcess(form)
+// })
+
+form.addEventListener('change', function() {
     dataProcess(form)
-})
+});
 
 function dataProcess() {
     let processed = []

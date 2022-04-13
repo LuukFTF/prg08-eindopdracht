@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Machine Learning Project</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="../js/algoritm.js" type="module"></script>
+</head>
+<body onload="loadData()">
+    <header class="topbar"><div class="webcontainer">
+        <div class="content flex">
+            <h2>Choir Events - Algoritm</h2> 
+            <a class="btn btncontent-options"></a>
+        </div>
+    </div></header>
+
+    <div class="webcontainer"><h2>Desicion Tree</h2></div>
+    <div id="view"></div>
+
+
+    <div class="webcontainer">
+        <h2>Confusion Matrix</h2>
+        <table id="confusion">
+            <tr>
+                <td></td>
+                <td>Actually Rehearsal</td>
+                <td>Actually Recording</td>
+                <td>Actually Show</td>
+                <td>Actually Preparation</td>
+                <td>Actually Meeting</td>
+                <td>Actually Festival</td>
+            </tr>
+            <tr>
+                <td>Predicted Rehearsal</td>
+                <td id="predictedRActualR" class="lable_r"> - </td>
+                <td id="predictedRActualREC"> - </td>
+                <td id="predictedRActualS"> - </td>
+                <td id="predictedRActualP"> - </td>
+                <td id="predictedRActualM"> - </td>
+                <td id="predictedRActualF"> - </td>
+            </tr>
+                <td>Predicted Recording</td>
+                <td id="predictedRECActualR"> - </td>
+                <td id="predictedRECActualREC" class="lable_rec"> - </td>
+                <td id="predictedRECActualS"> - </td>
+                <td id="predictedRECActualP"> - </td>
+                <td id="predictedRECActualM"> - </td>
+                <td id="predictedRECActualF"> - </td>
+            <tr>
+            </tr>
+                <td>Predicted Show</td>
+                <td id="predictedSActualR"> - </td>
+                <td id="predictedSActualREC"> - </td>
+                <td id="predictedSActualS" class="lable_s"> - </td>
+                <td id="predictedSActualP"> - </td>
+                <td id="predictedSActualM"> - </td>
+                <td id="predictedSActualF"> - </td>
+            <tr>
+            </tr>
+                <td>Predicted Preparation</td>
+                <td id="predictedPActualR"> - </td>
+                <td id="predictedPActualREC"> - </td>
+                <td id="predictedPActualS"> - </td>
+                <td id="predictedPActualP" class="lable_p"> - </td>
+                <td id="predictedPActualM"> - </td>
+                <td id="predictedPActualF"> - </td>
+            <tr>   
+            </tr>
+                <td>Predicted Meeting</td>
+                <td id="predictedMActualR"> - </td>
+                <td id="predictedMActualREC"> - </td>
+                <td id="predictedMActualS"> - </td>
+                <td id="predictedMActualP"> - </td>
+                <td id="predictedMActualM" class="lable_m"> - </td>
+                <td id="predictedMActualF"> - </td>
+            <tr> 
+            </tr>
+                <td>Predicted Festival</td>
+                <td id="predictedFActualR"> - </td>
+                <td id="predictedFActualREC"> - </td>
+                <td id="predictedFActualS"> - </td>
+                <td id="predictedFActualP"> - </td>
+                <td id="predictedFActualM"> - </td>
+                <td id="predictedFActualF" class="lable_f"> - </td>
+            <tr> 
+        </table>
+        <p>  <br> <br>  <br>  <br>   <br>  </p>
+    </div>
+
+    <footer class="bottomnavbar-container">
+        <nav class="navbar flex-col">
+            <a href="#" class="btn nav-btn 
+                btncontent-home">
+                <h4>Start</h4>
+            </a>
+            <a href="../" class="btn nav-btn 
+                btncontent-event">
+                <h4>Events</h4>
+            </a>
+            <a href="" class="btn nav-btn 
+                btncontent-settings active">
+                <h4>Algorithm</h4>
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
